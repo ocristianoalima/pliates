@@ -42,8 +42,10 @@ section{padding:56px 0}
 .card p{margin:0;color:var(--mute)}
 .obj .card{border-left:6px solid var(--sage)}
 .obj h3{font-style:italic}
-.dep .card{border-style:dashed}
-.dep small{color:var(--wood);font-weight:800}
+.dep .card{display:flex;flex-direction:column;gap:12px}
+.dep q{quotes:none;color:var(--ink)}
+.dep small{color:var(--mute);font-weight:800;font-size:.92rem}
+.dep .stars{font-size:.95rem}
 .who{display:grid;gap:28px;align-items:center}
 .who .arch{border-radius:24px 24px 999px 999px}
 .band{background:var(--olive);color:#fff;border-radius:24px;padding:32px 24px}
@@ -110,9 +112,9 @@ footer{padding:28px 0 96px;text-align:center;color:var(--mute);font-size:.9rem}
 <section class="dep" style="padding-top:0"><div class="w">
 <h2>Quem já treina no Harmony</h2>
 <div class="grid c3">
-<div class="card"><small>SUBSTITUIR</small><p>Colar aqui uma avaliação real do Google (nome e texto).</p></div>
-<div class="card"><small>SUBSTITUIR</small><p>Colar aqui uma avaliação real do Google (nome e texto).</p></div>
-<div class="card"><small>SUBSTITUIR</small><p>Colar aqui uma avaliação real do Google (nome e texto).</p></div>
+<div class="card"><span class="stars" aria-label="5 estrelas">★★★★★</span><p><q>O espaço é simplesmente incrível! Tudo é muito organizado, limpo e os aparelhos são novos e de alta qualidade. […] Ela é extremamente atenciosa e adapta os treinos às necessidades individuais de cada aluno.</q></p><small>Brenda Velozo, avaliação no Google</small></div>
+<div class="card"><span class="stars" aria-label="5 estrelas">★★★★★</span><p><q>A Stefanny é uma ótima profissional, atenciosa e divertida. Te dá toda a atenção individual para executar os movimentos da forma correta. […] O ambiente é o mais completo, lindo e aconchegante da cidade.</q></p><small>Carolina, avaliação no Google</small></div>
+<div class="card"><span class="stars" aria-label="5 estrelas">★★★★★</span><p><q>O ambiente é acolhedor, com aparelhos novos e bem cuidados, e as turmas reduzidas garantem um atendimento próximo e personalizado. Sinto melhora significativa na minha postura […] e também no meu desempenho na corrida de rua.</q></p><small>Laryssa Trajano Santos, avaliação no Google</small></div>
 </div></div></section>
 
 <section style="padding-top:0"><div class="w who">
